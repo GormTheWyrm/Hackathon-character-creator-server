@@ -23,10 +23,10 @@ public @Data class Hero {
 	private int id; 
 	
 	@Column (name = "class")
-	private String classtype; 
+	private String classType; 
 	
 	@Column (name = "username")
-	private String createdby; 
+	private String username; 
 	
 	//attributes
 	private int strength; 
@@ -41,8 +41,8 @@ public @Data class Hero {
 	private String name; 
 	private String race; 
 	private String gender; 
-	private String haircolor; 
-	private String eyecolor;
-	private String skintone; 
+	private String hairColor; 
+	private String eyeColor;
+	private String skinTone; 
 	
 }

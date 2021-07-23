@@ -28,6 +28,7 @@ public class HeroController {
 	@PostMapping("/add") 
 	public ResponseEntity<Hero> addHero(@RequestBody Hero hero) { 
 		Hero newHero = service.createHero(hero); 
+		System.out.println("Brother"); 
 		return ResponseEntity.ok().body(newHero); 
 	}
 	
